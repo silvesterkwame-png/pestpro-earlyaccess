@@ -519,7 +519,7 @@ function validate(){
 ['name','email','tools','workflow'].forEach(id=>document.getElementById(id).addEventListener('input',()=>document.getElementById('e-'+id).classList.remove('show')));
 
 // ⚠️ PASTE YOUR ZAPIER WEBHOOK URL HERE
-const WEBHOOK='https://hooks.zapier.com/hooks/catch/YOUR_HOOK_ID_HERE/';
+const WEBHOOK='https://hooks.zapier.com/hooks/catch/18648628/u0om965/';
 
 document.getElementById('frm').addEventListener('submit',async function(e){
   e.preventDefault();
